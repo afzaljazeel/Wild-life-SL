@@ -1,0 +1,70 @@
+.header-main {
+    margin-top: 0px;
+}
+body {
+    background-image: url(../Image/leopards/leopard-bg.jpg);
+}
+
+.main-image {
+    size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.description {
+
+    padding: 70px 0 0 30px;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 50px);
+}
+
+.info-leopard-1 {
+    padding-bottom:30px ;
+}
+
+.info-leopard-2 {
+    padding-bottom:30px ;
+}
+
+.info-leopard-3 {
+    padding-bottom:30px ;
+}
+
+.threat-1 {
+        padding: 70px 0 0 30px;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 50px);
+}
+
+.threat-2 {
+    padding: 70px 0 0 30px;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 50px);
+}
+
+.threat-heading {
+    padding: 70px 0 0 30px;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 50px);
+}
+
+.threat-para {
+        padding: 70px 0 0 30px;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 50px);
+}
+
+.threat-2 img {
+    padding: 20px;
+    width: 500px;
+}
+
+.threat-1 img {
+    padding: 20px;
+    width: 500px;
+}

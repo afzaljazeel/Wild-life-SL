@@ -1,0 +1,248 @@
+h1 {
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.75px rgb(222, 172, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgb(8, 8, 36);
+    margin-top: 60px;
+    background-image:url(../Image/WL\ \(3\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-intro h1 {
+    font-size: 8rem;
+    line-height: 1;
+}
+
+main p {
+    font-size: 1.8rem;
+    line-height: 1.75;
+}
+
+main a {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    display: block;
+    background-color: rgb(199, 120, 9);
+    padding: 10px;
+    width: fit-content;
+
+}
+
+main .main-2 {
+    border-left: 4px solid black;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin-top: 350px;
+
+}
+main .main-2 h1 {
+    font-size: 2.7rem;
+    line-height: 1;
+    color: rgb(199, 120, 9);
+    -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+}
+
+main .main-intro {
+    position: relative;
+    right: 21vh;
+
+}
+
+main .main-2 {
+    position: relative;
+    left: 22vh;
+
+}
+
+/*category section*/
+
+.index-category { 
+    width: 100%;
+    padding: 60px 0;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.index-category-box { 
+    width: 17rem;
+    height: 17rem;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.index-category p {
+    color: #000;
+    text-align: center;
+    padding-bottom: 30px;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.index-category-box:nth-child(3) {
+    background-image: url(../Image/categories/Introduction.png);
+}
+
+.index-category-box:nth-child(4) {
+    background-image: url(../Image/categories/dept\ WL.png);
+}
+
+.index-category-box:nth-child(5) {
+    background-image: url(../Image/categories/Leopard.png);
+}
+
+.index-category-box:nth-child(6) {
+    background-image: url(../Image/categories/Animals.png);
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    transition: ease-in-out 200ms;
+}
+
+.index-category-box:hover .dark-overlay { 
+    opacity: 0;
+}
+
+.index-category h3 {
+    text-align: center;
+    text-shadow: -2px 2px 4px #000;
+    line-height: 1.75;
+    z-index: 100;
+}
+
+/*Introduction paragraph  section*/
+.index-intro {
+    background: rgb(90,81,63);
+    background: radial-gradient(circle, rgba(90,81,63,1) 0%, rgba(10,25,17,1) 99%, rgba(10,46,17,1) 100%);
+    padding: 60px;
+    text-align: center;
+}
+.index-intro-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+.index-intro img{
+    width: 400px;
+    height: 250px;
+    padding-top: 35px;
+}
+
+.index-intro .intro-p2 {
+    padding-top: 60px;
+}
+
+.index-intro .intro-p3 {
+    padding-top: 60px;
+}
+
+/* respoonsive*/
+
+@media only screen and (max-width: 600px) {
+    main {
+        align-items: flex-end;
+    }
+
+    main .main-intro {
+        position: static; /* Reset the position */
+        right: auto; /* Reset the right property */
+        left: auto; /* Reset the left property */
+        text-align: center; /* Center the text */
+        padding-bottom: 8vh;
+    }
+
+    main .main-intro h1 {
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+
+    main p {
+        text-align: center;
+        padding: 0 10%;
+        font-size: 1.6rem;
+        line-height: 1.75;
+    }
+
+    main a {
+        margin: 30px auto;
+    }
+
+    main .main-2 {
+        display: none;
+    }
+
+    
+.index-category { 
+    padding: 40px 0 20px;
+    row-gap: 10px;
+
+}
+
+.index-category p {
+    padding-bottom: 20px;
+}
+
+.index-category-box { 
+    width: calc(100% - 20px);
+    height: 17rem;
+}
+
+/* paragraph section*/ 
+ 
+.index-intro {
+    padding-top: 50px;
+    text-align: center;
+}
+.index-intro-flex {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+.index-intro img{
+    display: none;
+}
+
+.index-intro .intro-p2 {
+    padding-top: 60px;
+}
+
+.index-intro .intro-p3 {
+    padding-top: 60px;
+}
+
+}
+ 
+

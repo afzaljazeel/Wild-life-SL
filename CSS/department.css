@@ -1,0 +1,83 @@
+.header-main {
+    margin-top: 0px;
+}
+
+.dept-of-wl-intro {
+    background-image: url(../Image/DOWL-BGG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.dept-of-wl-intro h2 {
+    padding-top: 70px;
+    color: white;
+    text-shadow: black;
+}
+
+.heading-intro {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.heading-intro img {
+    padding-bottom: 30px;
+    width: 20%;
+}
+
+.info-intro {
+    justify-content: center;
+    width: calc(100% - 20px) ;
+    padding-left: 30px;
+}
+
+.sum-intro {
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.cover-main {
+    background-image: url(../Image/dowl/bg.jpg);
+    object-fit: fill;
+    
+}
+
+.cover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.box img{
+    width: 300px;
+}
+
+.cover-main h2 {
+    color: black;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.cover-main p {
+    color: black;
+}
+
+.box img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 100ms;
+}

@@ -1,0 +1,237 @@
+:root{
+    --green-background: #115734;
+    --wheat-background: #b6a15c;
+
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(31, 30, 30);
+}
+
+.wrapper-main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.8rem;
+    line-height: 1.5;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.1rem;
+    line-height: 1.5;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+a {
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer; 
+}
+
+.header-main {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: rgb(90, 81, 63);
+    background: radial-gradient(circle, rgba(90,81,63,1) 0%, rgba(10,25,17,1) 99%, rgba(10,46,17,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    margin-top: -60px;
+}
+
+.header-main-logo {
+    padding-left: 60px; /*left yellow little space */
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+
+}
+
+.header-main-nav ul{
+    
+}
+
+.header-main-nav ul li{
+    display: inline;
+    float: left; /* to remove the cursor error in the middle*/
+
+}
+
+.header-main-nav ul li a{
+    padding: 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+} 
+
+.header-main-nav ul li a:hover{
+    color:var(--wheat-background);
+    
+}
+
+.header-main-social {
+    width: 120px;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-main-social-fb {
+   width: 20px;
+   height: 20px;
+   background-image: url(../Image/FB-white.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.header-main-social-fb:hover{
+    background-image: url(../Image/facebook.png);
+ }
+
+.header-main-social-in {
+    width: 20px;
+    height: 20px;
+    background-image: url(../Image/Ig-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .header-main-social-in:hover{
+    background-image: url(../Image/instagram.png);
+ }
+
+ /* footer*/
+
+footer {
+    height: fit-content;
+    background-color: black;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+ .footer-nav ul {
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+    text-align: center;
+ }
+
+ .footer-main-social {
+    width: 100%;
+    height: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-main-social-fb {
+   width: 50px;
+   height: 50px;
+   background-image: url(../Image/FB-white.png);
+   background-repeat: unset;
+   background-size: cover;
+}
+
+.footer-main-social-fb:hover{
+    background-image: url(../Image/facebook.png);
+ }
+
+.footer-main-social-in {
+    width: 50px;
+    height: 50px;
+    background-image: url(../Image/Ig-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+ 
+ .footer-main-social-in:hover{
+    background-image: url(../Image/instagram.png);
+ }
+
+ .footer-contact-details {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+ }
+    
+ .footer-cr {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+} 
+
+.footer-cr p {
+    color: orange;
+}
+ /*responsive*/
+
+ @media only screen and (max-width: 600px) {
+
+    .wrapper-main {
+        width: 80%;
+    }
+    
+    .header-main-logo {
+        padding-left: 20px; /*left little space */
+    }
+
+    .header-main-nav {
+        display: none;
+    
+    }
+
+    .header-main-social {
+        padding-right: 20px;
+    }
+
+ }
