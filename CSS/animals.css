@@ -1,3 +1,46 @@
 .header-main {
     margin-top: 0px;
 }
+
+.ani-info-intro {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 70px 20px 70px;
+}
+
+.ani-info {
+    background-image: url(../Image/Animals/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 70px 20px 70px;
+}
+
+.ani-info img {
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+.ani-info p {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.yala-wilpattu-link {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.yala-wilpattu-link a {
+    margin: 30px;
+    padding: 20px;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(199, 120, 9);
+}
