@@ -4,7 +4,7 @@
 
 .places-to-visit {
     padding-top: 70px;
-    background-image: url(../Image/Intro-bg.jpg);
+    background-image: url(../Image/WL\ 55.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -15,10 +15,94 @@
     text-align: center; /* Center-align text within each container */
 }
 
-/* Additional styles for better readability */
+.sinharaja {
+    margin: 30px 0 30px 0;
+    max-width: 1300px;
+    position: relative;
+    background-color: rgba(255, 255, 255,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 2%;
+
+}
+
+.sinharaja img {
+    border-radius: 2%;
+}
+
+.Udawalawe {
+    margin: 30px 0 30px 0;
+    max-width: 1300px;
+    position: relative;
+    background-color: rgba(255, 255, 255,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 2%;
+
+}
+
+.Udawalawe img {
+    border-radius: 2%;
+}
+
+.horton-plains {
+    margin: 30px 0 30px 0;
+    max-width: 1300px;
+    position: relative;
+    background-color: rgba(255, 255, 255,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 2%;
+
+}
+
+.horton-plains img {
+    border-radius: 2%;
+}
+
+.hikkaduwa {
+    margin: 30px 0 30px 0;
+    max-width: 1300px;
+    position: relative;
+    background-color: rgba(255, 255, 255,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 2%;
+
+}
+
+.hikkaduwa img {
+    border-radius: 2%;
+}
+
+.minneriya {
+    margin: 30px 0 30px 0;
+    max-width: 1300px;
+    position: relative;
+    background-color: rgba(255, 255, 255,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 2%;
+
+}
+
+.minneriya img {
+    border-radius: 2%;
+}
+
+.bundala {
+    margin: 30px 0 30px 0;
+    max-width: 1300px;
+    position: relative;
+    background-color: rgba(255, 255, 255,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 2%;
+
+}
+
+.bundala img {
+    border-radius: 2%;
+}
+
+
 .places-to-visit h2 {
 
-    margin-top: 20px; /* Add some top margin to the headings for spacing */
+    margin-top: 20px;
 }
 
 .places-to-visit h3 {
@@ -33,12 +117,11 @@
     font-size: 17px;
     margin-top: 10px; /* Adjust the margin as needed */
     text-align: left;
-    padding: 30px 100px 50px 100px;
+    padding: 30px;
     text-transform: none;
 }
 
 .intro-images {
-    border-radius: 10;
     display: flex;
     width: 500px;
     justify-content: center;
@@ -46,6 +129,7 @@
 }
 
 iframe {
+    border-radius: 2%;
     width: 1000px;
     height: 200px;
     padding-bottom: 50px;

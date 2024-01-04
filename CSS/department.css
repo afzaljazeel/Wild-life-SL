@@ -3,24 +3,29 @@
 }
 
 .dept-of-wl-intro {
-    background-image: url(../Image/DOWL-BGG.jpg);
+
+    background-image: url(../Image/BG1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: left;
 }
 
 .dept-of-wl-intro h2 {
-    padding-top: 70px;
     color: white;
     text-shadow: black;
 }
 
 .heading-intro {
+    padding: 70px;
+    max-width: 1300px;
     text-align: center;
     padding-bottom: 30px;
+
 }
 
 .heading-intro img {
@@ -29,9 +34,15 @@
 }
 
 .info-intro {
-    justify-content: center;
-    width: calc(100% - 20px) ;
-    padding-left: 30px;
+    max-width: calc(100% - 100px);
+    text-align: left;
+    padding: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .sum-intro {
@@ -40,9 +51,11 @@
 }
 
 .cover-main {
-    background-image: url(../Image/dowl/bg.jpg);
+    background-image: url(../Image/dowl/introbgg2.jpg);
+    background-repeat: no-repeat;
+    background-position: f;
     object-fit: fill;
-    
+    padding-bottom: 30px;
 }
 
 .cover {
@@ -50,16 +63,20 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%; 
+    max-width: calc(100% - 100px);
     box-sizing: border-box; 
-    padding: 20px;
+    margin: 40px 40px 0 40px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .box {
     text-align: center;
     padding: 20px;
-
-
 }
 
 .box img{

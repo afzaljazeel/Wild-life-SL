@@ -45,10 +45,11 @@ main a {
 }
 
 main .main-2 {
-    border-left: 4px solid black;
+    border-left: 4px solid rgb(199, 120, 9);
     padding-left: 20px;
     padding-top: 50px;
-    margin-top: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
 
 }
 main .main-2 h1 {
@@ -60,7 +61,7 @@ main .main-2 h1 {
 
 main .main-intro {
     position: relative;
-    right: 21vh;
+    right: 25vh;
 
 }
 
