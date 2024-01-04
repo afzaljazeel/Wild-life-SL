@@ -1,8 +1,8 @@
 h1 {
     font-size: 2.6rem;
     line-height: 1.5;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 0.75px rgb(222, 172, 54);
+    color:white;
+    mix-blend-mode: overlay;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -11,9 +11,9 @@ h1 {
 main {
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: rgb(8, 8, 36);
+    background-color: rgb(8, 8, 36);    
     margin-top: 60px;
-    background-image:url(../Image/WL\ \(3\).jpg);
+    background-image:url(../Image/WL\ \(2\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,9 +22,11 @@ main {
     align-items: center;
 }
 
+
 main .main-intro h1 {
     font-size: 8rem;
     line-height: 1;
+    opacity: 0.8;
 }
 
 main p {
@@ -52,8 +54,8 @@ main .main-2 {
 main .main-2 h1 {
     font-size: 2.7rem;
     line-height: 1;
-    color: rgb(199, 120, 9);
-    -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+    color:white;
+    mix-blend-mode: overlay;
 }
 
 main .main-intro {
@@ -245,4 +247,3 @@ main .main-2 {
 
 }
  
-
