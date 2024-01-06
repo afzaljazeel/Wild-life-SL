@@ -69,8 +69,7 @@ a {
     position: fixed;
     width: 100%;
     height: 60px;
-    background: rgb(90, 81, 63);
-    background: radial-gradient(circle, rgba(90,81,63,1) 0%, rgba(10,25,17,1) 99%, rgba(10,46,17,1) 100%);
+    background-color: rgba(63, 63, 63, 0.522);
     display: flex;
     justify-content: space-between;
     z-index: 1000;

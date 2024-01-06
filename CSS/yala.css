@@ -1,3 +1,46 @@
 .header-main {
     margin-top: 0px;
 }
+
+.main-1 {
+    position: relative;
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.main-1::before,
+.main-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.main-1::before {
+    background-image: url(../Image/yala/YALA-MAIN.jpg); 
+}
+
+.main-1::after {
+    background-image: url(../Image/yala/YALA-MAIN-NOBG.png);
+}
+
+.main-1 h1 {
+    position: relative;
+    z-index: -1;
+    font-size: 12rem;
+    line-height: 1;
+    opacity: 0.5;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
