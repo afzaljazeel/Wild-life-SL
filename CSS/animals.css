@@ -2,30 +2,86 @@
     margin-top: 0px;
 }
 
-.ani-info-intro {
+.ani-info-intro{
+    text-align: center;
+    padding-top: 70px;
     align-items: center;
     justify-content: center;
+    background-image: url(../Image/Animals/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+.ani-info-intro h1 {
+    font-size: 6rem;
+    opacity: 0.4;
+}
+
+.ani-info-intro p {
+   padding: 0 100px 0 100px;
+   opacity: 0.4;
+   padding-bottom: 20px;
+
+}
+
+.ind-animals{
+   padding: 40px 0 30px 0;
+   background-image: url(../Image/Animals/main.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+.ind-animals h3{
     text-align: center;
-    padding: 70px 70px 20px 70px;
+    text-transform: uppercase;
 }
 
 .ani-info {
-    background-image: url(../Image/Animals/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 30px 70px 20px 70px;
-}
-  
-.ani-info img {
-    width: 500px;
-    margin-top: 10px;
-    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    max-width: calc(100% - 100px);
+    box-sizing: border-box; 
+    margin: 20px 40px 0 40px;
 }
 
-.ani-info p {
-    margin-bottom: 20px;
-    width: 60%;
+.card {
+    width: calc(30% - 20px); 
+    margin: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    opacity: 0.7;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    line-height: 2;
+}
+
+.card img {
+    width: 100%; 
+    border-radius: 3px;
+}
+
+.card h3{
+    margin: 10px;
+}
+
+.card p {
+    height: 400px;
+    padding: 6px;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: 100ms;
+    transform: scale(1.05);
 }
 
 .yala-wilpattu-link {
