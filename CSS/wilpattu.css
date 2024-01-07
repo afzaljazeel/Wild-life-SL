@@ -1,3 +1,46 @@
 .header-main {
     margin-top: 0px;
 }
+
+.main-1 {
+    position: relative;
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Image/wilpattu/mainbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info {
+    width: 80%;
+    max-width: 600px; 
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info img {
+    width: 100%;
+    margin: 20px 0 20px 0;
+
+}
+
+.info-1,
+.info-2,
+.info-3 {
+    padding: 30px 0 30px 0;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 700px;
+}
+
+@keyframes fade-in {
+    from { scale: .8; opacity: 0;}
+    to { scale: 1; opacity: 1;}
+}

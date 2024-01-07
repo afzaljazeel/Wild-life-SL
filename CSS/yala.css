@@ -39,8 +39,118 @@
     z-index: -1;
     font-size: 12rem;
     line-height: 1;
-    opacity: 0.5;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 40px;
+    opacity: 0;
+    transform: translateY(60px);
+    animation: moveup 2.5s linear forwards;
 }
+
+@keyframes moveup{
+    100%{
+        opacity: 0.5;
+        transform: translateY(0px);
+    }
+}
+
+.info {
+    background-color: rgb(91, 92, 42);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-1,
+.info-2,
+.info-3 {
+    margin: 0 10px; 
+}
+
+.info-1 {
+    border-radius: 12% 77% 32% 58% / 62% 25% 60% 25%;
+    width: 400px;
+    height: 300px;
+    background-image: url(../Image/yala/locationn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    transition: border-radius 500ms;
+}
+
+.info-1:hover {
+    border-radius: 49% 51% 71% 29% / 72% 34% 66% 28%;
+}
+
+.info-1 h1 {
+    margin-bottom: 10px; /* Adjust as needed for spacing between h1 and p */
+}
+
+.info-1 p {
+    text-align: center;
+}
+
+.info-2 {
+    border-radius: 12% 77% 32% 58% / 62% 25% 60% 25%;
+    width: 400px;
+    height: 300px;
+    background-image: url(../Image/yala/bio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    transition: border-radius 500ms;
+}
+
+.info-2:hover {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.info-2 h1 {
+    margin-bottom: 10px; /* Adjust as needed for spacing between h1 and p */
+}
+
+.info-2 p {
+    text-align: center;
+}
+
+.info-3 {
+    border-radius: 12% 77% 32% 58% / 62% 25% 60% 25%;
+    width: 400px;
+    height: 300px;
+    background-image: url(../Image/yala/tourist2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    transition: border-radius 500ms;
+}
+
+.info-3:hover {
+    border-radius: 44% 56% 15% 85% / 57% 70% 30% 43%;
+}
+
+.info-3 h1 {
+    margin-bottom: 10px; /* Adjust as needed for spacing between h1 and p */
+}
+
+.info-3 p {
+    text-align: center;
+}
+
+
