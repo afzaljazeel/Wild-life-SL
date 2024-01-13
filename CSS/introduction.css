@@ -159,3 +159,55 @@ td{
 
 
 
+/* Responsive */
+
+
+@media only screen and (max-width: 1500px) {
+
+        .places-to-visit {
+            padding-top: 60px;
+        }
+    
+        /* Destination Sections */
+        .sinharaja, .Udawalawe, .horton-plains, .hikkaduwa, .minneriya, .bundala {
+            margin: 20px 10px; 
+            max-width: 90%;   
+        }
+    
+        /* Heading and Text Styles inside Places to Visit Section */
+        .places-to-visit h2 {
+            margin-top: 10px;
+        }
+    
+        .places-to-visit h3 {
+            margin-top: 5px;
+        }
+    
+        .places-to-visit p {
+            font-size: 16px;
+            margin-top: 5px;
+            text-align: center; 
+            padding: 15px;
+        }
+    
+        /* Introduction Images Styles */
+        .intro-images {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center;
+            align-items: center;
+            width: 60%
+        }
+    
+        iframe {
+            width: 100%; 
+            height: auto;
+        }
+    
+        /* Table Styles */
+        table {
+            margin: 20px 10px; 
+            width: 80%;
+        }
+    }
+

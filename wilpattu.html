@@ -9,27 +9,53 @@
     <link rel="stylesheet" href="./CSS/wilpattu.css" />
   </head>
   <body>
+    <!-- Burger Menu -->
+    <nav class="burger-menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
+        <li><a href="./department.html">DEPT OF WL</a></li>
+        <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
+        <li><a href="./leopard.html">LEOPARDS</a></li>
+        <li><a href="./yala.html">YALA PARK</a></li>
+      </ul>
+    </nav>
+
     <header class="header-main">
-      <div class="header-main-logo">
-        <img src="./Image/Wild life new logo.png" alt="" />
+      <section class="header-main-logo">
+        <img src="./Image/LOGONEW.png" alt="" />
         <nav class="header-main-nav">
           <ul>
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
-            <li><a href="./leopard.html">LEOPARDS</a></li>
-            <li><a href="./animals.html">ANIMALS</a></li>
+            <li><a href="./department.html">DEPT OF WL</a></li>
+            <li>
+              <a href="#">ANIMALS</a>
+              <ul class="dropdown">
+                <li><a href="./leopard.html">Leopards</a></li>
+                <li><a href="./animals.html">Indigenous animals</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SAFARI</a>
+              <ul class="dropdown">
+                <li><a href="./yala.html">Yala National Park</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
-      </div>
-      <div class="header-main-social">
+      </section>
+      <section class="header-main-social">
         <a href="https://www.facebook.com/">
-          <div class="header-main-social-fb"></div>
+          <section class="header-main-social-fb"></section>
         </a>
         <a href="https://www.instagram.com/">
-          <div class="header-main-social-in"></div>
+          <section class="header-main-social-in"></section>
         </a>
-      </div>
+        <section class="burger-menu-btn"></section>
+      </section>
     </header>
+
     <main>
       <section class="main-1">
         <h1>WILPATTU NATIONAL PARK</h1>
@@ -38,35 +64,40 @@
 
     <section class="info">
       <div class="info-1">
-        <h2>Location and Size:</h2>
-        <img src="./Image/wilpattu/main.jpg" alt="" />
+        <h2>Location and Overview:</h2>
+        <img src="./Image/wilpattu/loc.jpg" alt="" />
         <p>
-          Yala National Park is situated in the southeastern part of Sri Lanka,
-          in the Hambantota district. It is the second-largest national park in
-          Sri Lanka, covering an area of approximately 978 square kilometers.
+          Wilpattu National Park is situated on the northwest coast of Sri
+          Lanka, covering an area of approximately 1,317 square kilometers. It
+          is the largest national park in the country and is renowned for its
+          diverse ecosystems and wildlife. The park is characterized by its
+          unique landscape, which includes dense scrublands, open grasslands,
+          and numerous lakes, or "villus."
         </p>
       </div>
       <div class="info-2">
-        <h2>Biodiversity:</h2>
-        <img src="./Image/wilpattu/main.jpg" alt="" />
+        <h2>Biodiversity and Wildlife:</h2>
+        <img src="./Image/wilpattu/bio.jpg" alt="" />
         <p>
-          Yala is renowned for its rich biodiversity and is home to a variety of
-          ecosystems, including dense jungles, scrublands, and coastal areas.
-          The park is known for its high density of leopards, making it one of
-          the best places in the world to spot these elusive big cats. Other
-          wildlife includes elephants, sloth bears, deer, crocodiles, and a
-          plethora of bird species.
+          Wilpattu National Park is a haven for biodiversity, housing a wide
+          variety of flora and fauna. The park is known for its population of
+          Sri Lankan leopards, making it one of the best places on the island to
+          spot these elusive big cats. Other prominent wildlife species include
+          elephants, sloth bears, spotted deer, water buffaloes, and a rich
+          array of bird species. The park's lakes attract a multitude of water
+          birds, adding to its ecological significance.
         </p>
       </div>
       <div class="info-3">
-        <h2>Tourist Attractions and Activities:</h2>
-        <img src="./Image/wilpattu/main.jpg" alt="" />
+        <h2>Conservation and Historical Significance:</h2>
+        <img src="./Image/wilpattu/his.jpg" alt="" />
         <p>
-          Yala offers safari experiences that allow visitors to explore the
-          diverse landscapes and observe the wildlife in their natural habitats.
-          The park is divided into five blocks, with Block 1 being the most
-          popular for safaris. Visitors can also explore historical sites like
-          Sithulpawwa, an ancient Buddhist monastery within the park.
+          Wilpattu National Park has a rich historical and cultural
+          significance, with evidence of ancient civilizations within its
+          boundaries. The park's name, "Wilpattu," is derived from the unique
+          natural lakes scattered across the landscape. Despite facing threats
+          from deforestation and poaching in the past, ongoing conservation
+          efforts have helped protect the park's ecosystems and wildlife.
         </p>
       </div>
     </section>
@@ -98,5 +129,6 @@
         <p>Copyright &copy; 2023; Designed by Afzal Jazeel</p>
       </div>
     </footer>
+    <script src="JS/main.js"></script>
   </body>
 </html>

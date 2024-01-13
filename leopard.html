@@ -9,17 +9,39 @@
     <link rel="stylesheet" href="./CSS/leopard.css" />
   </head>
   <body>
+    <!-- Burger Menu -->
+    <nav class="burger-menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
+        <li><a href="./department.html">DEPT OF WL</a></li>
+        <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
+        <li><a href="./yala.html">YALA PARK</a></li>
+        <li><a href="./wilpattu.html">WILPATTU PARK</a></li>
+      </ul>
+    </nav>
+
     <header class="header-main">
       <div class="header-main-logo">
         <img src="./Image/LOGONEW.png" alt="" />x
         <nav class="header-main-nav">
           <ul>
-            <ul>
-              <li><a href="./index.html">HOME</a></li>
-              <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
-              <li><a href="./wildlife_introduction.html">DEPT OF WL</a></li>
-              <li><a href="./animals.html">ANIMALS</a></li>
-            </ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
+            <li><a href="./department.html">DEPT OF WL</a></li>
+            <li>
+              <a href="#">ANIMALS</a>
+              <ul class="dropdown">
+                <li><a href="./animals.html">Indigenous animals</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SAFARI</a>
+              <ul class="dropdown">
+                <li><a href="./yala.html">Yala National Park</a></li>
+                <li><a href="./wilpattu.html">Wilpattu National Park</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
@@ -30,6 +52,7 @@
         <a href="https://www.instagram.com/">
           <div class="header-main-social-in"></div>
         </a>
+        <section class="burger-menu-btn"></section>
       </div>
     </header>
 
@@ -41,6 +64,10 @@
 
       <section class="main-2">
         <h1>leopard</h1>
+      </section>
+
+      <section class="main-responsive">
+        <h1>Sri Lankan Leopard</h1>
       </section>
     </main>
 
@@ -208,5 +235,6 @@
         <p>Copyright &copy; 2023; Designed by Afzal Jazeel</p>
       </div>
     </footer>
+    <script src="./JS/main.js"></script>
   </body>
 </html>

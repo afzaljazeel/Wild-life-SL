@@ -41,7 +41,10 @@ main a {
     background-color: rgb(199, 120, 9);
     padding: 10px;
     width: fit-content;
+}
 
+main a:hover{
+    background-color: rgb(96, 37, 0);
 }
 
 main .main-2 {
@@ -176,19 +179,27 @@ main .main-2 {
 @media only screen and (max-width: 600px) {
     main {
         align-items: flex-end;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(8, 8, 36);    
+            background-image:url(../Image/WL\ \(2\)\ crop.jpg);
+            background-size: fill;
+
     }
 
     main .main-intro {
-        position: static; /* Reset the position */
-        right: auto; /* Reset the right property */
-        left: auto; /* Reset the left property */
-        text-align: center; /* Center the text */
+        position: static; 
+        right: auto; 
+        left: auto; 
+        text-align: center; 
         padding-bottom: 8vh;
     }
 
     main .main-intro h1 {
         font-size: 4rem;
         line-height: 1.1;
+        opacity: 1;
+        padding-bottom: 300px;
     }
 
     main p {
@@ -225,7 +236,7 @@ main .main-2 {
 /* paragraph section*/ 
  
 .index-intro {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
 }
 .index-intro-flex {
@@ -234,16 +245,17 @@ main .main-2 {
     align-items: center;
     column-gap: 60px;
 }
+
 .index-intro img{
-    display: none;
+    padding-top: 30px;
 }
 
 .index-intro .intro-p2 {
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 .index-intro .intro-p3 {
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 }

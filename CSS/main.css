@@ -89,12 +89,9 @@ a {
 
 }
 
-.header-main-nav ul{
-    
-}
-
 .header-main-nav ul li{
-    display: inline;
+    display: inline-block;
+    position: relative;
     float: left; /* to remove the cursor error in the middle*/
 
 }
@@ -103,11 +100,61 @@ a {
     padding: 0 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 60px;
+    text-decoration: none;
+    color: white;
 } 
 
 .header-main-nav ul li a:hover{
     color:var(--wheat-background);
+    background-color: rgb(96, 37, 0);
     
+}
+
+.header-main-nav ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+
+}
+
+.dropdown {
+    display: none;
+    background-color: rgb(181, 136, 0);
+    position: absolute;
+    top: 100%; /* Position the dropdown below the parent item */
+    left: 0;
+    min-width: 200px;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown li a {
+    color: rgb(255, 255, 255); /* Adjust the color as needed */
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background-color: #3030307a;
+}
+
+.header-main-social {
+    width: 120px;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-main-social-fb {
+   width: 20px;
+   height: 20px;
+   background-image: url(../Image/FB-white.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
 .header-main-social {
@@ -212,9 +259,69 @@ footer {
 .footer-cr p {
     color: orange;
 }
+
+.burger-menu, .burger-menu-btn{
+    display: none;
+}
+
+
  /*responsive*/
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
+
+    .burger-menu-btn{
+        margin: 10px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-image: url(../Image/icons/open.png), url(../Image/icons/close.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center, center left 50px;
+
+    }
+
+    .burger-menu{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 900;
+        background-color: #111;
+        font-size: 1rem;
+
+    }
+
+    .burger-menu ul {
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+    }
+
+    .burger-menu ul li{
+
+          flex-basis: 100%;
+          border: 2px solid #000;
+
+    }
+
+    .burger-menu ul li:nth-child(1){
+        padding-top: 60px;
+  }
+  
+
+    .burger-menu ul li a{
+        display: block;
+        height: 100%;
+        font-size: 3rem;
+        padding: 10px 0;
+        flex-basis: 100%;
+        text-align: center;
+
+  }
 
     .wrapper-main {
         width: 80%;

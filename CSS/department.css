@@ -31,6 +31,7 @@
 .heading-intro img {
     padding-bottom: 30px;
     width: 20%;
+    min-width: 150px;
 }
 
 .info-intro {
@@ -53,8 +54,12 @@
 .cover-main {
     background-image: url(../Image/dowl/introbgg2.jpg);
     background-repeat: no-repeat;
-    background-position: f;
-    object-fit: fill;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 30px;
 }
 
@@ -79,8 +84,14 @@
     padding: 20px;
 }
 
+.box h2{
+    font-size: 1.5rem;
+
+}
+
 .box img{
     width: 300px;
+    border-radius: 5px;
 }
 
 .cover-main h2 {
@@ -97,4 +108,14 @@
     cursor: pointer;
     opacity: 0.5;
     transition: 100ms;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading-intro h3 {
+        font-size: 1.5rem;
+    }
+
+    .dept-of-wl-intro {
+        font-size: 2rem;
+    }
 }

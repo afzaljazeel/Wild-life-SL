@@ -9,42 +9,64 @@
     <link rel="stylesheet" href="./CSS/introduction.css" />
   </head>
   <body>
+    <!-- Burger Menu -->
+    <nav class="burger-menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./department.html">DEPT OF WL</a></li>
+        <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
+        <li><a href="./leopard.html">LEOPARDS</a></li>
+        <li><a href="./yala.html">YALA PARK</a></li>
+        <li><a href="./wilpattu.html">WILPATTU PARK</a></li>
+      </ul>
+    </nav>
+
     <header class="header-main">
-      <div class="header-main-logo">
+      <section class="header-main-logo">
         <img src="./Image/LOGONEW.png" alt="" />
         <nav class="header-main-nav">
           <ul>
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./department.html">DEPT OF WL</a></li>
-            <li><a href="./leopard.html">LEOPARDS</a></li>
-            <li><a href="./animals.html">ANIMALS</a></li>
+            <li>
+              <a href="#">ANIMALS</a>
+              <ul class="dropdown">
+                <li><a href="./leopard.html">Leopards</a></li>
+                <li><a href="./animals.html">Indigenous animals</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SAFARI</a>
+              <ul class="dropdown">
+                <li><a href="./yala.html">Yala National Park</a></li>
+                <li><a href="./wilpattu.html">Wilpattu National Park</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
-      </div>
-      <div class="header-main-social">
+      </section>
+      <section class="header-main-social">
         <a href="https://www.facebook.com/">
-          <div class="header-main-social-fb"></div>
+          <section class="header-main-social-fb"></section>
         </a>
         <a href="https://www.instagram.com/">
-          <div class="header-main-social-in"></div>
+          <section class="header-main-social-in"></section>
         </a>
-      </div>
+        <section class="burger-menu-btn"></section>
+      </section>
     </header>
 
     <!-- The Places -->
 
     <section class="places-to-visit">
       <h1>THE FINEST PLACES TO SEE WILDLIFE IN SRI LANKA</h1>
-      <div class="sinharaja">
-        <h2>
-          <span class="number">1</span>
-          "Sinharaja Forest Reserve"
-        </h2>
+      <section class="sinharaja">
+        <h2>"Sinharaja Forest Reserve"</h2>
         <h3>
-          <div class="intro-images">
+          <section class="intro-images">
             <img src="Image/Sinharaja1.jpg" alt="sinharaja-forest" />
-          </div>
-          <div class="sinharaja-para">
+          </section>
+          <section class="sinharaja-para">
             <p>
               A UNESCO-listed World Heritage Site and Biosphere Reserve,
               Sinharaja Forest Reserve is the last viable area of primary
@@ -62,8 +84,8 @@
               rare leopard, purple-faced langur, rusty spotted cat and three
               types of squirrel.
             </p>
-          </div>
-          <div class="map">
+          </section>
+          <section class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7929.7983131956935!2d80.45049939357908!3d6.406990799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1703613051723!5m2!1sen!2slk"
               width="600"
@@ -73,20 +95,17 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </section>
         </h3>
-      </div>
+      </section>
 
-      <div class="Udawalawe">
-        <h2>
-          <span class="number">2</span>
-          Udawalawe National Park
-        </h2>
+      <section class="Udawalawe">
+        <h2>Udawalawe National Park</h2>
         <h3>
-          <div class="intro-images">
+          <section class="intro-images">
             <img src="Image/Udawalawe1.jpg" alt="udawalawe-forest" />
-          </div>
-          <div class="udawalawe-para">
+          </section>
+          <section class="udawalawe-para">
             <p>
               Udawalawe National Park just south of Sri Lanka's central
               mountains, is a large reserve made up of 119 square miles of
@@ -105,8 +124,8 @@
               chance to spot exciting raptors such as the changeable hawk-eagle,
               serpent eagle and grey-headed fish eagle.
             </p>
-          </div>
-          <div class="map">
+          </section>
+          <section class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.370803999489!2d80.87144807928156!3d6.474628776801595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae408ff88887e79%3A0xaf12e79ffbd980d7!2sUdawalawe%20National%20Park!5e0!3m2!1sen!2slk!4v1703613925814!5m2!1sen!2slk"
               width="600"
@@ -116,20 +135,17 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </section>
         </h3>
-      </div>
+      </section>
 
-      <div class="horton-plains">
-        <h2>
-          <span class="number">3</span>
-          Horton Plains
-        </h2>
+      <section class="horton-plains">
+        <h2>Horton Plains</h2>
         <h3>
-          <div class="intro-images">
+          <section class="intro-images">
             <img src="Image/Horton-plains1.jpg" alt="horton-plains" />
-          </div>
-          <div class="horton-plains-para">
+          </section>
+          <section class="horton-plains-para">
             <p>
               Up in the central highlands, the Horton Plains measure up to an
               impressive 2,100 metres above sea level, making it the highest
@@ -150,8 +166,8 @@
               reside in the cloud forests, and for bird enthusiasts there are
               both a huge range of migratory and endemic birds to watch.
             </p>
-          </div>
-          <div class="map">
+          </section>
+          <section class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22409.874245143645!2d80.70640333819782!3d6.825236801023611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38f535203dda3%3A0x9e2456fee60625f3!2sHorton%20Plains!5e0!3m2!1sen!2slk!4v1703867731919!5m2!1sen!2slk"
               width="600"
@@ -161,20 +177,17 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </section>
         </h3>
-      </div>
+      </section>
 
-      <div class="hikkaduwa">
-        <h2>
-          <span class="number">4</span>
-          Hikkaduwa Marine National Park
-        </h2>
+      <section class="hikkaduwa">
+        <h2>Hikkaduwa Marine National Park</h2>
         <h3>
-          <div class="intro-images">
+          <section class="intro-images">
             <img src="Image/Hikkaduwa1.jpg" alt="hikkaduwa-corals" />
-          </div>
-          <div class="hikkaduwa-para">
+          </section>
+          <section class="hikkaduwa-para">
             <p>
               Declared a Nature Reserve in 1988 and then upgraded to national
               park status in 2002, the Hikkaduwa National Park in the southern
@@ -193,8 +206,8 @@
               outer slope of the reef, blacktip reef sharks can be found along
               with hawksbill and green turtles.
             </p>
-          </div>
-          <div class="map">
+          </section>
+          <section class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9501183948787!2d80.09663587503701!3d6.137404293849516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae1770f548d710b%3A0x159baa380959fcaa!2sHikkaduwa%20Marine%20National%20Park!5e0!3m2!1sen!2slk!4v1703867820393!5m2!1sen!2slk"
               width="600"
@@ -204,20 +217,17 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </section>
         </h3>
-      </div>
+      </section>
 
-      <div class="minneriya">
-        <h2>
-          <span class="number">5</span>
-          Minneriya National Park
-        </h2>
+      <section class="minneriya">
+        <h2>Minneriya National Park</h2>
         <h3>
-          <div class="intro-images">
+          <section class="intro-images">
             <img src="Image/Minneriya1.jpg" alt="minneriya-forest" />
-          </div>
-          <div class="minneriya-para">
+          </section>
+          <section class="minneriya-para">
             <p>
               Minneriya National Park sits in the north central province and
               with just over 300 square miles it remains one of the smallest
@@ -237,8 +247,8 @@
               during the dry season (July – October). This wonderful event is
               the largest meeting of Asian elephants in the world.
             </p>
-          </div>
-          <div class="map">
+          </section>
+          <section class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.8379206005234!2d80.84209537505451!3d8.015644292010656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb6009a20be05d%3A0xa4d046f2f06b05f5!2sMinneriya%20National%20Park!5e0!3m2!1sen!2slk!4v1703867846270!5m2!1sen!2slk"
               width="600"
@@ -248,20 +258,17 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </section>
         </h3>
-      </div>
+      </section>
 
-      <div class="bundala">
-        <h2>
-          <span class="number">6</span>
-          Bundala National Park
-        </h2>
+      <section class="bundala">
+        <h2>Bundala National Park</h2>
         <h3>
-          <div class="intro-images">
+          <section class="intro-images">
             <img src="Image/Bundala1.jpg" alt="bundala-forest" />
-          </div>
-          <div class="bundala-para">
+          </section>
+          <section class="bundala-para">
             <p>
               The Bundala National Park stretches over 20km of Sri Lanka’s south
               coast enclosing five shallow lagoons. The reserve is home to a
@@ -282,8 +289,8 @@
               langur monkeys, crocodiles sunning themselves and wild pigs
               foraging.
             </p>
-          </div>
-          <div class="map">
+          </section>
+          <section class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15866.02669905134!2d81.18855259841078!3d6.196682150655111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69842ecb214eb%3A0x145a2d402f36beb0!2sBundala%20National%20Park!5e0!3m2!1sen!2slk!4v1703867884629!5m2!1sen!2slk"
               width="600"
@@ -293,9 +300,9 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </section>
         </h3>
-      </div>
+      </section>
 
       <!-- The Table -->
       <h3>Summary table</h3>
@@ -357,30 +364,31 @@
 
     <!-- The Footer -->
     <footer>
-      <div class="footer-nav">
+      <section class="footer-nav">
         <ul>
           <li><a href="#">Contact us </a></li>
         </ul>
-      </div>
-      <div class="footer-main-social">
+      </section>
+      <section class="footer-main-social">
         <a href="https://www.facebook.com/" target="_blank"
-          ><div class="footer-main-social-fb"></div
+          ><section class="footer-main-social-fb"></section
         ></a>
         <a href="https://www.instagram.com/" target="_blank"
-          ><div class="footer-main-social-in"></div
+          ><section class="footer-main-social-in"></section
         ></a>
-      </div>
-      <div class="footer-contact-details">
+      </section>
+      <section class="footer-contact-details">
         <p>
           Department of Wildlife Conservation,<br />
           811A, Jayanthipura, Battaramulla, Sri Lanka. <br />
           Email: dg@dwc.gov.lk <br />Phone: +94 11 2 888 585 <br />Fax: +94 11 2
           883 355
         </p>
-      </div>
-      <div class="footer-cr">
+      </section>
+      <section class="footer-cr">
         <p>Copyright &copy; 2023; Designed by Afzal Jazeel</p>
-      </div>
+      </section>
     </footer>
+    <script src="JS/main.js"></script>
   </body>
 </html>

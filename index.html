@@ -9,6 +9,21 @@
     <link rel="stylesheet" href="./CSS/index.css" />
   </head>
   <body>
+    <!-- Burger Menu -->
+    <nav class="burger-menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
+        <li><a href="./department.html">DEPT OF WL</a></li>
+        <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
+        <li><a href="./leopard.html">LEOPARDS</a></li>
+        <li><a href="./yala.html">YALA PARK</a></li>
+        <li><a href="./wilpattu.html">WILPATTU PARK</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+
     <header class="header-main">
       <section class="header-main-logo">
         <img src="./Image/LOGONEW.png" alt="" />
@@ -17,8 +32,20 @@
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
             <li><a href="./department.html">DEPT OF WL</a></li>
-            <li><a href="./leopard.html">LEOPARDS</a></li>
-            <li><a href="./animals.html">ANIMALS</a></li>
+            <li>
+              <a href="#">ANIMALS</a>
+              <ul class="dropdown">
+                <li><a href="./leopard.html">Leopards</a></li>
+                <li><a href="./animals.html">Indigenous animals</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SAFARI</a>
+              <ul class="dropdown">
+                <li><a href="./yala.html">Yala National Park</a></li>
+                <li><a href="./wilpattu.html">Wilpattu National Park</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </section>
@@ -29,6 +56,7 @@
         <a href="https://www.instagram.com/" target="_blank"
           ><section class="header-main-social-in"></section
         ></a>
+        <section class="burger-menu-btn"></section>
       </section>
     </header>
 
@@ -93,6 +121,7 @@
         </p>
       </section>
       <section class="wrapper-main index-intro-flex">
+        <img src="./Image/Whale.png" alt="" />
         <p class="intro-p2">
           2. Marine Marvels: Whale Watching and Turtle Conservation
           <br /><br />
@@ -110,7 +139,6 @@
           ocean. Sri Lanka's marine wonders make it a must-visit destination for
           those seeking encounters with both terrestrial and aquatic marvels.
         </p>
-        <img src="./Image/Whale.png" alt="" />
       </section>
       <section class="wrapper-main index-intro-flex">
         <img src="./Image/Tourist.png" alt="" />
@@ -164,5 +192,6 @@
         <p>Copyright &copy; 2023; Designed by Afzal Jazeel</p>
       </section>
     </footer>
+    <script src="JS/main.js"></script>
   </body>
 </html>

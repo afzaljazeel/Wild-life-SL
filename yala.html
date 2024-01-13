@@ -9,26 +9,51 @@
     <link rel="stylesheet" href="./CSS/yala.css" />
   </head>
   <body>
+    <!-- Burger Menu -->
+    <nav class="burger-menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
+        <li><a href="./department.html">DEPT OF WL</a></li>
+        <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
+        <li><a href="./leopard.html">LEOPARDS</a></li>
+        <li><a href="./wilpattu.html">WILPATTU PARK</a></li>
+      </ul>
+    </nav>
+
     <header class="header-main">
-      <div class="header-main-logo">
+      <section class="header-main-logo">
         <img src="./Image/LOGONEW.png" alt="" />
         <nav class="header-main-nav">
           <ul>
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
-            <li><a href="./leopard.html">LEOPARDS</a></li>
-            <li><a href="./animals.html">ANIMALS</a></li>
+            <li><a href="./department.html">DEPT OF WL</a></li>
+            <li>
+              <a href="#">ANIMALS</a>
+              <ul class="dropdown">
+                <li><a href="./leopard.html">Leopards</a></li>
+                <li><a href="./animals.html">Indigenous animals</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SAFARI</a>
+              <ul class="dropdown">
+                <li><a href="./wilpattu.html">Wilpattu National Park</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
-      </div>
-      <div class="header-main-social">
+      </section>
+      <section class="header-main-social">
         <a href="https://www.facebook.com/">
-          <div class="header-main-social-fb"></div>
+          <section class="header-main-social-fb"></section>
         </a>
         <a href="https://www.instagram.com/">
-          <div class="header-main-social-in"></div>
+          <section class="header-main-social-in"></section>
         </a>
-      </div>
+        <section class="burger-menu-btn"></section>
+      </section>
     </header>
 
     <main>
@@ -96,5 +121,6 @@
         <p>Copyright &copy; 2023; Designed by Afzal Jazeel</p>
       </div>
     </footer>
+    <script src="JS/main.js"></script>
   </body>
 </html>

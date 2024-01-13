@@ -9,47 +9,72 @@
     <link rel="stylesheet" href="./CSS/animals.css" />
   </head>
   <body>
-    <header class="header-main">
-      <div class="header-main-logo">
-        <img src="./Image/LOGONEW.png" alt="" />
-        <nav class="header-main-nav">
+
+        <!-- Burger Menu -->
+        <nav class="burger-menu">
           <ul>
             <li><a href="./index.html">HOME</a></li>
             <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
             <li><a href="./department.html">DEPT OF WL</a></li>
             <li><a href="./leopard.html">LEOPARDS</a></li>
-            <li><a href="./animals.html">ANIMALS</a></li>
+            <li><a href="./yala.html">YALA PARK</a></li>
+            <li><a href="./wilpattu.html">WILPATTU PARK</a></li>
           </ul>
         </nav>
-      </div>
-      <div class="header-main-social">
-        <a href="https://www.facebook.com/">
-          <div class="header-main-social-fb"></div>
-        </a>
-        <a href="https://www.instagram.com/">
-          <div class="header-main-social-in"></div>
-        </a>
-      </div>
-    </header>
+
+     <header class="header-main">
+        <section class="header-main-logo">
+          <img src="./Image/LOGONEW.png" alt="" />
+          <nav class="header-main-nav">
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
+              <li><a href="./department.html">DEPT OF WL</a></li>
+              <li>
+                <a href="#">ANIMALS</a>
+                <ul class="dropdown">
+                  <li><a href="./leopard.html">Leopards</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">SAFARI</a>
+                <ul class="dropdown">
+                  <li><a href="./yala.html">Yala National Park</a></li>
+                  <li><a href="./wilpattu.html">Wilpattu National Park</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section class="header-main-social">
+            <a href="https://www.facebook.com/">
+          <section class="header-main-social-fb"></section>
+            </a>
+            <a href="https://www.instagram.com/">
+          <section class="header-main-social-in"></section>
+            </a>
+          <section class="burger-menu-btn"></section>
+        </section>
+      </header>   
 
     <!-- The informations -->
     <section class="ani-info-intro">
-      <h1>Indigenous animals in Sri Lanka</h1>
-      <p>
-        Sri Lanka, an island nation in South Asia, is home to a diverse array of
-        indigenous animals, many of which are endemic, meaning they are found
-        nowhere else in the world. The country's unique geographical features,
-        including forests, wetlands, and coastal areas, contribute to this
-        biodiversity.
-      </p>
-      <video
-        src="Videos/intropg-vid.mp4"
-        width="100%"
-        muted
-        controls
-        loop
-      ></video>
+      <section class="video-container">
+         <!-- Video source - youtube (So Sri Lanka - Wild & Nature Video) -->
+        <video src="Videos/video-sl (2).mp4" autoplay muted loop></video>
+      </section>
+      <section class="content">
+        <h1>Indigenous animals in Sri Lanka</h1>
+        <p>
+          Sri Lanka, an island nation in South Asia, is home to a diverse array of
+          indigenous animals, many of which are endemic, meaning they are found
+          nowhere else in the world. The country's unique geographical features,
+          including forests, wetlands, and coastal areas, contribute to this
+          biodiversity.
+        </p>
+      </section>
     </section>
+    
 
     <section class="ind-animals">
       <h3>Here are some notable indigenous animals in Sri Lanka:</h3>
@@ -125,11 +150,24 @@
       </section>
     </section>
 
-    <section class="yala-wilpattu-link">
-      <h3>JOIN US WITH A SAFARI TO</h3>
-      <a href="./yala.html" target="_blank">Yala National Park </a>
-      <a href="./wilpattu.html" target="_blank">Wilapattu National Park</a>
+    <section class="yala-wilpattu">
+      <section class="topic">
+        <h3>JOIN US WITH A SAFARI TO</h3>
+      </section>
+      <section class="yala-wilpattu-links">
+        <section class="link link1">
+          <a href="./yala.html" target="_blank">
+            Yala National Park
+          </a>
+        </section>
+        <section class="link link2">
+          <a href="./wilpattu.html" target="_blank">
+            Wilapattu National Park
+          </a>
+        </section>
+      </section>
     </section>
+    
 
     <!-- The Footer -->
     <footer>
@@ -158,5 +196,6 @@
         <p>Copyright &copy; 2023; Designed by Afzal Jazeel</p>
       </div>
     </footer>
+    <script src="JS/main.js"></script>
   </body>
 </html>
