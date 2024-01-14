@@ -153,7 +153,7 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 1160px) {
+@media only screen and (min-width: 500px) and (max-width: 1160px) {
 
     .main-1 h1 {
       font-size: 6rem;
@@ -193,5 +193,45 @@
     }
   }
   
+
+  @media only screen and (max-width: 400px) {
+    .main-1 h1 {
+        font-size: 3rem;
+        margin-top: 20px;
+      }
+    
+      .info {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .info-1,
+      .info-2,
+      .info-3 {
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 0;
+      }
+    
+      .info-1:hover,
+      .info-2:hover,
+      .info-3:hover {
+        border-radius: 0;
+      }
+    
+      .info-1,
+      .info-2,
+      .info-3 h1 {
+        margin-bottom: 10px;
+      }
+    
+      .info-1 p,
+      .info-2 p,
+      .info-3 p {
+        text-align: center;
+      }
+  }
+
 
 
