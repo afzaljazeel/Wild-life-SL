@@ -126,7 +126,7 @@ body {
     .info-3 {
       width: 100%;
       margin-bottom: 20px;
-      border-radius: 0; /* Remove border-radius on smaller screens */
+      border-radius: 0; 
     }
   
     .info-1:hover,

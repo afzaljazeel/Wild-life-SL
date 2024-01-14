@@ -177,7 +177,7 @@ main .main-2 {
     .threat-1,
     .threat-2 {
         width: calc(100% - 40px);
-        margin: 20px auto; /* Center the sections */
+        margin: 20px auto;
     }
 
     .threat-1 img,

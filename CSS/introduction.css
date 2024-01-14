@@ -12,7 +12,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center; /* Center-align text within each container */
+    text-align: center; 
 }
 
 .sinharaja {
@@ -110,12 +110,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 .places-to-visit p {
     font-size: 17px;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px;
     text-align: left;
     padding: 30px;
     text-transform: none;
@@ -135,27 +135,43 @@ iframe {
     padding-bottom: 50px;
 }
 
+.summary-table h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #000000;
+    -webkit-text-stroke: 1px #3498db;
+}
+
+
 table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 30px;
+}
 
-    background-color: black;
+th {
+    background-color: #3498db;
     color: white;
-    margin: 30px 0 30px 0;
-    font-size: 20px;
-    width: calc(100% - 200px);
-}
-
-th{
-    color: black;
-    background-color: rgb(216, 144, 19);
+    font-size: 2rem;
     font-weight: bold;
-    border: 5px solid rgb(255, 255, 255);
-    padding: 5px 0 5px 0;
+    padding: 10px;
+    border: 1px solid #ffffff;
 }
 
-td{
-    border: 4px solid white;
-    padding: 5px 0 5px 0;
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
 }
+
+tr {
+    font-size: 1.5rem;
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #c2f3ffcb;
+}
+
 
 
 
@@ -168,13 +184,11 @@ td{
             padding-top: 60px;
         }
     
-        /* Destination Sections */
         .sinharaja, .Udawalawe, .horton-plains, .hikkaduwa, .minneriya, .bundala {
             margin: 20px 10px; 
             max-width: 90%;   
         }
     
-        /* Heading and Text Styles inside Places to Visit Section */
         .places-to-visit h2 {
             margin-top: 10px;
         }
@@ -190,7 +204,6 @@ td{
             padding: 15px;
         }
     
-        /* Introduction Images Styles */
         .intro-images {
             display: flex;
             flex-wrap: wrap; 
@@ -204,10 +217,8 @@ td{
             height: auto;
         }
     
-        /* Table Styles */
         table {
-            margin: 20px 10px; 
-            width: 80%;
+            width: 90%;
         }
     }
 
