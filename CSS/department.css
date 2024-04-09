@@ -42,7 +42,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -69,13 +69,13 @@
     justify-content: center;
     align-items: center;
     max-width: calc(100% - 100px);
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin: 40px 40px 0 40px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -84,12 +84,12 @@
     padding: 20px;
 }
 
-.box h2{
+.box h2 {
     font-size: 1.5rem;
 
 }
 
-.box img{
+.box img {
     width: 300px;
     border-radius: 5px;
 }
@@ -100,6 +100,7 @@
     text-align: center;
 
 }
+
 .cover-main p {
     color: black;
 }

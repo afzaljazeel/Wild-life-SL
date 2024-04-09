@@ -8,12 +8,41 @@
     <link rel="stylesheet" href="./CSS/reset.css" />
     <link rel="stylesheet" href="./CSS/main.css" />
     <link rel="stylesheet" href="./CSS/yala.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"
+      defer
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./fonts/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./fonts/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./fonts/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <link
+      rel="mask-icon"
+      href="./fonts/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#000000" />
   </head>
   <body>
     <!-- Burger Menu -->
     <nav class="burger-menu">
       <ul>
-        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./home.html">HOME</a></li>
         <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
         <li><a href="./department.html">DEPT OF WL</a></li>
         <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
@@ -29,7 +58,7 @@
         <img src="./Image/LOGONEW.png" alt="" />
         <nav class="header-main-nav">
           <ul>
-            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./home.html">HOME</a></li>
             <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
             <li><a href="./department.html">DEPT OF WL</a></li>
             <li>
@@ -70,36 +99,34 @@
     <section class="info">
       <section class="info-1">
         <h2>Location and Size:</h2>
-        <p>
-          Yala National Park is situated in the southeastern part of Sri Lanka,
-          in the Hambantota district. It is the second-largest national park in
-          Sri Lanka, covering an area of approximately 978 square kilometers.
-        </p>
+        <p id="p1" x-text="p1"></p>
       </section>
       <section class="info-2">
         <h2>Biodiversity:</h2>
-        <p>
-          Yala is renowned for its rich biodiversity and is home to a variety of
-          ecosystems, including dense jungles, scrublands, and coastal areas.
-          The park is known for its high density of leopards, making it one of
-          the best places in the world to spot these elusive big cats. Other
-          wildlife includes elephants, sloth bears, deer, crocodiles, and a
-          plethora of bird species.
-        </p>
+        <p id="p2" x-text="p2"></p>
       </section>
       <section class="info-3">
         <h2>Tourist Attractions and Activities:</h2>
-        <p>
-          Yala offers safari experiences that allow visitors to explore the
-          diverse landscapes and observe the wildlife in their natural habitats.
-          The park is divided into five blocks, with Block 1 being the most
-          popular for safaris. Visitors can also explore historical sites like
-          Sithulpawwa, an ancient Buddhist monastery within the park.
-        </p>
+        <p id="p3" x-text="p3"></p>
       </section>
     </section>
 
     <!-- The Footer -->
+
+    <section class="newsletterSub">
+      <form id="newsletterForm">
+        <h2>Subscribe to our News Letter!</h2>
+        <input
+          class="email"
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <button type="submit">Subscribe</button>
+      </form>
+      <section id="message" style="color: white; margin-top: 20px"></section>
+    </section>
+
     <footer>
       <section class="footer-nav">
         <ul>
@@ -127,5 +154,7 @@
       </section>
     </footer>
     <script src="JS/main.js"></script>
+    <script src="./JS/yala.js"></script>
+    <script src="./JS/newsletter.js"></script>
   </body>
 </html>

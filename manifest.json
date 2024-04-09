@@ -1,0 +1,20 @@
+{
+    "name": "Wild Life Sri Lanka",
+    "short_name": "WildLifeSriLanka",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src":".//fonts/android-chrome-192x192.png",
+            "type":"image.png",
+            "size":"192x192"
+        },
+        {
+            "src":".//fonts/android-chrome-256x256.png",
+            "type":"image.png",
+            "size":"256x256"
+        }
+
+    ]
+
+}

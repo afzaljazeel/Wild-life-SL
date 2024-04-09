@@ -8,12 +8,41 @@
     <link rel="stylesheet" href="./CSS/reset.css" />
     <link rel="stylesheet" href="./CSS/main.css" />
     <link rel="stylesheet" href="./CSS/leopard.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"
+      defer
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./fonts/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./fonts/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./fonts/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <link
+      rel="mask-icon"
+      href="./fonts/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#000000" />
   </head>
   <body>
     <!-- Burger Menu -->
     <nav class="burger-menu">
       <ul>
-        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./home.html">HOME</a></li>
         <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
         <li><a href="./department.html">DEPT OF WL</a></li>
         <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
@@ -29,7 +58,7 @@
         <img src="./Image/LOGONEW.png" alt="" />
         <nav class="header-main-nav">
           <ul>
-            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./home.html">HOME</a></li>
             <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
             <li><a href="./department.html">DEPT OF WL</a></li>
             <li>
@@ -80,49 +109,15 @@
     <section class="description">
       <section class="info-leopard-1">
         <h2>Yala National Park:</h2>
-        <p>
-          Location: Yala National Park is situated in the southeastern part of
-          Sri Lanka, spanning the Southern and Uva provinces. <br />
-          Habitat: The park is diverse, featuring a mix of scrublands,
-          grasslands, and dense forests, providing an ideal habitat for
-          leopards. <br />Leopard Population: Yala is renowned for having one of
-          the highest leopard densities in the world. The park is home to a
-          significant population of Sri Lankan leopards. <br />Wildlife Viewing:
-          Visitors to Yala National Park have a good chance of spotting leopards
-          during game drives. The park is also home to various other species,
-          including elephants, crocodiles, and a wide array of birdlife.
-        </p>
+        <p id="parkName1" x-text="parkName1"></p>
       </section>
       <section class="info-leopard-2">
         <h2>Wilpattu National Park:</h2>
-        <p>
-          Location: Wilpattu is the largest national park in Sri Lanka, located
-          in the northwest part of the country.<br />
-          Habitat: The park is characterized by a mix of natural lakes, dense
-          scrublands, and open grasslands, providing an ideal environment for
-          leopards to thrive. <br />Leopard Population: Wilpattu is known for
-          its healthy population of leopards, and the park has been a
-          significant conservation area for this species. <br />Unique Feature:
-          Wilpattu is distinctive for its "villus" or natural lakes, which add
-          to the overall beauty of the park and provide a source of water for
-          the diverse wildlife.
-        </p>
+        <p id="parkName2" x-text="parkName2"></p>
       </section>
       <section class="info-leopard-3">
         <h2>Udawalawe National Park:</h2>
-        <p>
-          Location: Situated in the southern part of Sri Lanka, Udawalawe
-          National Park is known for its scenic landscapes. <br />
-          Habitat: The park consists of grasslands, scrublands, and forests
-          surrounding the Udawalawe Reservoir, creating an environment that
-          supports a variety of wildlife. <br />Leopard Population: While
-          Udawalawe is more famous for its elephant population, leopards are
-          also present in the park. However, leopard sightings are relatively
-          less common compared to other species. <br />Wildlife Viewing:
-          Udawalawe is popular for its elephant safaris, but visitors may also
-          have the chance to spot leopards and other wildlife during their
-          visit.
-        </p>
+        <p id="parkName3" x-text="parkName3"></p>
       </section>
     </section>
 
@@ -131,75 +126,31 @@
       <h2>Habitat Loss and Fragmentation:</h2>
       <img src="./Image/leopards/habitat loss 3.webp" alt="" />
       <h3>Threat Description:</h3>
-      <p>
-        Habitat loss and fragmentation pose a significant threat to leopard
-        populations in Sri Lanka. Rapid urbanization, agricultural expansion,
-        and infrastructure development have led to the destruction and
-        fragmentation of the leopards' natural habitats.
-      </p>
+      <p id="threatName1" x-text="threatName1"></p>
       <br />
-
       <h3>Consequences:</h3>
-      <p>
-        The reduction of suitable habitats forces leopards into smaller and
-        isolated areas, leading to increased human-wildlife conflict,
-        inbreeding, and a decline in prey availability. Habitat loss also
-        disrupts ecological balance, impacting other species within the
-        ecosystem.
-      </p>
+      <p id="threatName2" x-text="threatName2"></p>
       <br />
-
       <h3>Mitigation Mechanisms:</h3>
-
-      <p>
-        Protected Areas: Expansion and proper management of existing protected
-        areas, such as national parks and wildlife reserves, help provide secure
-        habitats for leopards. Corridor Establishment: Creating wildlife
-        corridors connecting fragmented habitats allows leopards to move between
-        areas, promoting genetic diversity and maintaining healthy populations.
-        Land-use Planning: Implementing sustainable land-use practices and
-        incorporating wildlife-friendly measures in development plans to
-        minimize the impact on leopard habitats.
-      </p>
+      <p id="threatName3" x-text="threatName3"></p>
     </section>
 
     <section class="threat-2">
       <h2>Human-Wildlife Conflict:</h2>
       <img src="./Image/leopards/habitat loss 2.webp" alt="" />
       <h3>Threat Description:</h3>
-      <p>
-        As human populations expand into leopard habitats, conflicts between
-        humans and leopards increase. These conflicts arise due to livestock
-        depredation, threats to human safety, and retaliatory killings by
-        communities.
-      </p>
+      <p id="threatName11" x-text="threatName11"></p>
       <br />
 
       <h3>Consequences:</h3>
-      <p>
-        Human-wildlife conflict not only endangers leopard populations but also
-        poses risks to human lives. Retaliatory killings and poaching further
-        exacerbate the decline of leopard numbers.
-      </p>
+      <p id="threatName22" x-text="threatName22"></p>
       <br />
 
       <h3>Mitigation Mechanisms:</h3>
 
-      <p>
-        Community Outreach and Education: Educating local communities about
-        leopard behavior, promoting coexistence, and providing information on
-        securing livestock can reduce conflicts. Livestock Protection Measures:
-        Implementing measures such as secure enclosures and community-based
-        predator-proofing techniques helps safeguard livestock and reduces the
-        incentive for retaliatory killings. Early Warning Systems: Developing
-        and implementing early warning systems to alert communities about
-        leopard presence, allowing them to take preventive measures and avoid
-        confrontations. Compensation Schemes: Establishing fair and efficient
-        compensation schemes for livestock losses due to leopard predation helps
-        alleviate economic burdens on local communities, fostering tolerance
-        toward leopards.
-      </p>
+      <p id="threatName33" x-text="threatName33"></p>
     </section>
+
     <section class="leopard-ending">
       <p class="threat-para">
         Addressing these threats requires a holistic approach that combines
@@ -214,7 +165,24 @@
       >
     </section>
 
+    <script src="./JS/leopard.js"></script>
+
     <!-- The Footer -->
+
+    <section class="newsletterSub">
+      <form id="newsletterForm">
+        <h2>Subscribe to our News Letter!</h2>
+        <input
+          class="email"
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <button type="submit">Subscribe</button>
+      </form>
+      <section id="message" style="color: white; margin-top: 20px"></section>
+    </section>
+
     <footer>
       <section class="footer-nav">
         <ul>
@@ -242,5 +210,6 @@
       </section>
     </footer>
     <script src="./JS/main.js"></script>
+    <script src="./JS/newsletter.js"></script>
   </body>
 </html>

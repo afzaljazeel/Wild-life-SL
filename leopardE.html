@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wilpattu National Park</title>
+    <title>Sri Lankan Leopard</title>
     <link rel="icon" href="Image/LOGONEW.png" type="image/x-icon" />
     <link rel="stylesheet" href="./CSS/reset.css" />
     <link rel="stylesheet" href="./CSS/main.css" />
-    <link rel="stylesheet" href="./CSS/wilpattu.css" />
+    <link rel="stylesheet" href="./CSS/leopard.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"
       defer
@@ -42,37 +42,37 @@
     <!-- Burger Menu -->
     <nav class="burger-menu">
       <ul>
-        <li><a href="./home.html">HOME</a></li>
-        <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
-        <li><a href="./department.html">DEPT OF WL</a></li>
-        <li><a href="./animals.html">INDIGENOUS ANIMALS</a></li>
-        <li><a href="./leopard.html">LEOPARDS</a></li>
-        <li><a href="./yala.html">YALA PARK</a></li>
-        <li><a href="./wilpattu.html">WILPATTU PARK</a></li>
+        <li><a href="./homeE.html">HOME</a></li>
+        <li><a href="./introE.html">INTRODUCTION</a></li>
+        <li><a href="./deptE.html">DEPT OF WL</a></li>
+        <li><a href="./animalE.html">INDIGENOUS ANIMALS</a></li>
+        <li><a href="./leopardE.html">LEOPARDS</a></li>
+        <li><a href="./yalaE.html">YALA PARK</a></li>
+        <li><a href="./wilpattuE.html">WILPATTU PARK</a></li>
       </ul>
     </nav>
 
-    <!--Header-->
+    <!-- Header-->
     <header class="header-main">
       <section class="header-main-logo">
         <img src="./Image/LOGONEW.png" alt="" />
         <nav class="header-main-nav">
           <ul>
-            <li><a href="./home.html">HOME</a></li>
-            <li><a href="./wildlife_introduction.html">INTRODUCTION</a></li>
-            <li><a href="./department.html">DEPT OF WL</a></li>
+            <li><a href="./homeE.html">HOME</a></li>
+            <li><a href="./introE.html">INTRODUCTION</a></li>
+            <li><a href="./deptE.html">DEPT OF WL</a></li>
             <li>
               <a href="#">ANIMALS</a>
               <ul class="dropdown">
-                <li><a href="./leopard.html">Leopards</a></li>
-                <li><a href="./animals.html">Indigenous animals</a></li>
+                <li><a href="./leopardE.html">Leopards</a></li>
+                <li><a href="./animalE.html">Indigenous animals</a></li>
               </ul>
             </li>
             <li>
               <a href="#">SAFARI</a>
               <ul class="dropdown">
-                <li><a href="./yala.html">Yala National Park</a></li>
-                <li><a href="./wilpattu.html">Wilpattu National Park</a></li>
+                <li><a href="./yalaE.html">Yala National Park</a></li>
+                <li><a href="./wilpattuE.html">Wilpattu National Park</a></li>
               </ul>
             </li>
           </ul>
@@ -88,31 +88,83 @@
         <section class="burger-menu-btn"></section>
       </section>
     </header>
-
     <main>
-      <section class="main-1">
-        <h1>WILPATTU NATIONAL PARK</h1>
+      <section class="main-bg"></section>
+      <section class="main-intro">
+        <h1>Sri Lankan</h1>
+      </section>
+
+      <section class="main-2">
+        <h1>leopard</h1>
+      </section>
+
+      <section class="main-responsive">
+        <h1>Sri Lankan Leopard</h1>
       </section>
     </main>
 
     <!-- Contents - source (wikipedia, wildlife tours srilanka,dwc.gov, reddot tours )-->
-    <section class="info">
-      <section class="info-1">
-        <h2>Location and Overview:</h2>
-        <img src="./Image/wilpattu/loc.jpg" alt="" />
-        <p id="p1" x-text="p1"></p>
+
+    <section class="description">
+      <section class="info-leopard-1">
+        <h2>Yala National Park:</h2>
+        <p id="parkName1" x-text="parkName1" contenteditable="true"></p>
       </section>
-      <section class="info-2">
-        <h2>Biodiversity and Wildlife:</h2>
-        <img src="./Image/wilpattu/bio.jpg" alt="" />
-        <p id="p2" x-text="p2"></p>
+      <section class="info-leopard-2">
+        <h2>Wilpattu National Park:</h2>
+        <p id="parkName2" x-text="parkName2" contenteditable="true"></p>
       </section>
-      <section class="info-3">
-        <h2>Conservation and Historical Significance:</h2>
-        <img src="./Image/wilpattu/his.jpg" alt="" />
-        <p id="p3" x-text="p3"></p>
+      <section class="info-leopard-3">
+        <h2>Udawalawe National Park:</h2>
+        <p id="parkName3" x-text="parkName3" contenteditable="true"></p>
       </section>
     </section>
+
+    <h1 class="threat-heading">Threats</h1>
+    <section class="threat-1">
+      <h2>Habitat Loss and Fragmentation:</h2>
+      <img src="./Image/leopards/habitat loss 3.webp" alt="" />
+      <h3>Threat Description:</h3>
+      <p id="threatName1" x-text="threatName1" contenteditable="true"></p>
+      <br />
+      <h3>Consequences:</h3>
+      <p id="threatName2" x-text="threatName2" contenteditable="true"></p>
+      <br />
+      <h3>Mitigation Mechanisms:</h3>
+      <p id="threatName3" x-text="threatName3" contenteditable="true"></p>
+    </section>
+
+    <section class="threat-2">
+      <h2>Human-Wildlife Conflict:</h2>
+      <img src="./Image/leopards/habitat loss 2.webp" alt="" />
+      <h3>Threat Description:</h3>
+      <p id="threatName11" x-text="threatName11" contenteditable="true"></p>
+      <br />
+
+      <h3>Consequences:</h3>
+      <p id="threatName22" x-text="threatName22" contenteditable="true"></p>
+      <br />
+
+      <h3>Mitigation Mechanisms:</h3>
+
+      <p id="threatName33" x-text="threatName33" contenteditable="true"></p>
+    </section>
+
+    <section class="leopard-ending">
+      <p class="threat-para">
+        Addressing these threats requires a holistic approach that combines
+        conservation efforts, community engagement, and sustainable development
+        practices to ensure the long-term survival of leopard populations in Sri
+        Lanka.
+      </p>
+      <a
+        href="https://www.leopocon.org/#:~:text=Leopocon%20Sri%20Lanka%20is%20a,Lankan%20leopards%20and%20their%20ecosystems."
+        target="_blank"
+        >Click to learn more about leopards</a
+      >
+    </section>
+
+    <script src="./JS/leopard.js"></script>
 
     <!-- The Footer -->
 
@@ -156,8 +208,7 @@
         <p>Copyright &copy; 2023; Designed by Afzal Jazeel</p>
       </section>
     </footer>
-    <script src="JS/main.js"></script>
-    <script src="./JS/wilpattu.js"></script>
+    <script src="./JS/main.js"></script>
     <script src="./JS/newsletter.js"></script>
   </body>
 </html>

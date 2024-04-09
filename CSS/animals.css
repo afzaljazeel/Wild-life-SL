@@ -70,6 +70,7 @@
 }
 
 .ani-info {
+    height: fit-content;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
@@ -81,6 +82,7 @@
 
 .card {
     width: calc(30% - 20px); 
+    height: fit-content;
     margin: 20px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
@@ -102,9 +104,11 @@
 }
 
 .card p {
-    height: 400px;
+    height: fit-content;
     padding: 6px;
 }
+
+
 
 
 .card:hover{

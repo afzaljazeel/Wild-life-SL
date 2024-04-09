@@ -1,0 +1,167 @@
+
+
+.btn{
+  width: 100px;
+  background:linear-gradient(to left,#c89a04,rgb(90,81,63));
+  cursor: pointer;
+}
+.btn i{
+  cursor: pointer;
+}
+.input-text{
+  transition: 300ms;
+  transform: scale(0.1);
+  display: none;
+}
+.input-text textarea{
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 15px;
+  border-radius: 10px;
+  background: #a6a91c;
+}
+.show{
+  display: block;
+  transform: scale(1);
+}
+.edit{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  transform: scale(0.1);
+  transition: 500ms;
+  display: none;
+}
+.edit textarea{
+  width: 100%;
+  height: 15rem;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background: #a6a91c;
+}
+.edit-visible{
+  display: block;
+  transform: scale(1);
+}
+.inputButton{
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+}
+.inputButton button{
+  width: 100%;
+  background:linear-gradient(to left,#c89a04,rgb(90,81,63));
+  cursor: pointer;
+}
+.inputButton i{
+  cursor: pointer;
+}
+
+body {
+ color:white;
+ background:rgb(90,81,63);
+ margin: 0;
+ padding: 0;
+ 
+}
+
+.news-letter{
+  text-align: center;
+  background-size: cover;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  padding: 1.2rem;
+  border-radius: 10px;
+  height:100%;
+}
+.news-letter input,button{
+  padding:10px;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+}
+.news-letter input[type="email"]:focus{
+  border: 3px solid #04ca7b;
+}
+.news-letter button{
+  background: linear-gradient(to top,#3bc18c,#48f5be);
+  cursor: pointer;
+}
+.news-letter a{
+  text-decoration: none;
+  color: #04ca7b;
+  cursor: pointer;
+}
+.news-letter a:hover{
+  text-decoration: underline;
+}
+
+
+/* header */
+
+.head-logo{
+  width: 90px;
+  height: 70px;
+  transition: 500ms;
+  margin-left: 5px;
+  margin-top: 5px;
+ }
+ 
+.headlogos {
+ margin-left: 5rem;
+ background:#9a7214;
+ padding: 3px;
+ box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+ display: flex;
+ justify-content: space-between;
+}
+.buttono {
+  padding: 1rem;
+}
+.buttono button{
+  margin-left: 4px;
+  background: transparent;
+  color: rgb(90,81,63);
+  padding: 1rem;
+  border:rgb(17, 16, 16) solid 4px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttono a{
+  text-decoration:none;
+  cursor: pointer;
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+
+  .headlogos{
+    padding: 0px;
+    height:4rem;
+    margin-left: 0rem;
+    margin-top: 5rem;
+  }
+  .head-logo{
+    padding: 3px;
+    margin-top: 0;
+    width: 60px;
+    height: 48px;
+  }
+  .name-logo{
+    width: 0px;
+    height: 70px;
+  }
+
+  .buttono {
+    padding: 0.3rem;
+  }
+  .buttono button{
+    padding:0.8rem;
+    margin-top: 2px;
+  }
+}

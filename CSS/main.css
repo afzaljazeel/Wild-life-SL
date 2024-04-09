@@ -191,6 +191,48 @@ a {
     background-image: url(../Image/instagram.png);
  }
 
+
+ /*newsletter*/
+
+ .newsletterSub {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#newsletterForm {
+    display: inline-block;
+}
+
+.email {
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #edb90c;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff; /* Change to hover color */
+}
+
+#message {
+    margin-top: 20px;
+    color: white;
+}
+
+
+
  /* footer*/
 
 footer {
@@ -262,6 +304,8 @@ footer {
 .burger-menu, .burger-menu-btn{
     display: none;
 }
+
+
 
 
 

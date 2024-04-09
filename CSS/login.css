@@ -1,0 +1,73 @@
+
+body {
+   background-image: url(../Image/WL\ \(2\).jpg);
+   display: flex;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   justify-content: center;
+   align-items: center;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+ }
+ 
+ .loginContainer {
+   width: 300px;
+   min-height: 40%; 
+   min-width: 20%; 
+   padding: 40px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #969696b5;
+ }
+ 
+
+.formGroup {
+   margin-bottom: 20px;
+}
+
+label {
+
+   display: block;
+   margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   color: black;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
+.error-message {
+   color: red;
+   margin-top: 10px;
+}
+
+.signupContainer {
+   display: none;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  color: #572c01; 
+}

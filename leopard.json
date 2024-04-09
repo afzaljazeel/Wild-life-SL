@@ -1,0 +1,41 @@
+{
+    "leopardInfo": [
+      {
+        "parkName1": "Location: Yala National Park is situated in the southeastern part of Sri Lanka spanning the Southern and Uva provinces. Habitat: The park is diverse featuring a mix of scrublands grasslands and dense forests providing an ideal habitat for leopards. Leopard Population: Yala is renowned for having one of the highest leopard densities in the world. The park is home to a significant population of Sri Lankan leopards. Wildlife Viewing:  Visitors to Yala National Park have a good chance of spotting leopards during game drives. The park is also home to various other species including elephants crocodiles and a wide array of birdlife."
+      },
+      {
+        "parkName2": "Location: Wilpattu is the largest national park in Sri Lanka, located in the northwest part of the country.<br />Habitat: The park is characterized by a mix of natural lakes, dense scrublands, and open grasslands, providing an ideal environment for leopards to thrive. <br />Leopard Population: Wilpattu is known for its healthy population of leopards, and the park has been a significant conservation area for this species. <br />Unique Feature: Wilpattu is distinctive for its villus or natural lakes, which add to the overall beauty of the park and provide a source of water for the diverse wildlife."
+
+      },
+      {
+        "parkName3": "Location: Situated in the southern part of Sri Lanka, Udawalawe National Park is known for its scenic landscapes. <br />Habitat: The park consists of grasslands, scrublands, and forests surrounding the Udawalawe Reservoir, creating an environment that supports a variety of wildlife. <br />Leopard Population: While Udawalawe is more famous for its elephant population, leopards are also present in the park. However, leopard sightings are relatively less common compared to other species. <br />Wildlife Viewing: Udawalawe is popular for its elephant safaris, but visitors may also have the chance to spot leopards and other wildlife during theirvisit."
+      }
+    ],
+
+
+    "threats1":[
+      {
+        "threatName1": " Habitat loss and fragmentation pose a significant threat to leopard populations in Sri Lanka. Rapid urbanization, agricultural expansion, and infrastructure development have led to the destruction and fragmentation of the leopards' natural habitats."
+      },
+      {
+        "threatName2": "The reduction of suitable habitats forces leopards into smaller and isolated areas, leading to increased human-wildlife conflict, inbreeding, and a decline in prey availability. Habitat loss also disrupts ecological balance, impacting other species within the ecosystem."
+      },
+      {
+        "threatName3": "Protected Areas: Expansion and proper management of existing protected areas, such as national parks and wildlife reserves, help provide secure habitats for leopards. Corridor Establishment: Creating wildlife corridors connecting fragmented habitats allows leopards to move between areas, promoting genetic diversity and maintaining healthy populations. Land-use Planning: Implementing sustainable land-use practices and incorporating wildlife-friendly measures in development plans to minimize the impact on leopard habitats."
+      }
+    ],
+
+    "threats2":[
+      {
+        "threatName11": "As human populations expand into leopard habitats, conflicts between humans and leopards increase. These conflicts arise due to livestock depredation, threats to human safety, and retaliatory killings by communities."
+      },
+      {
+        "threatName22": " Human-wildlife conflict not only endangers leopard populations but also poses risks to human lives. Retaliatory killings and poaching further exacerbate the decline of leopard numbers."
+      },
+      {
+        "threatName33": "Community Outreach and Education: Educating local communities about leopard behavior, promoting coexistence, and providing information on securing livestock can reduce conflicts. Livestock Protection Measures: Implementing measures such as secure enclosures and community-based predator-proofing techniques helps safeguard livestock and reduces the incentive for retaliatory killings. Early Warning Systems: Developing and implementing early warning systems to alert communities about leopard presence, allowing them to take preventive measures and avoid confrontations. Compensation Schemes: Establishing fair and efficient compensation schemes for livestock losses due to leopard predation helps alleviate economic burdens on local communities fostering tolerance toward leopards."
+      }
+    ]
+    
+  }
+  
